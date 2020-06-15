@@ -4,7 +4,7 @@ import React from 'react';
 function Message(props) {
     return(
         <div>
-        COuter value is updated to {props.counter}    
+        COUNTER  UPDATED TO {props.counter}    
         </div>
     )
 }

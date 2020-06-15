@@ -8,7 +8,7 @@ function App() {
 
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
 
-      <h1>good {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1>good {isMorning ? 'MORNING' : 'NIGHT'}</h1>
 
        
       <Message counter={count} />
@@ -16,7 +16,7 @@ function App() {
 
       <button onClick={()=>setCount(++count)} >Update Counter</button>
       <button onClick={()=>setCount(0)}> Reset Counter</button><br/><br></br>
-      <button onClick={()=>setMorning(!isMorning)}>Change Time </button>
+      <button onClick={()=>setMorning(!isMorning)}>Time </button>
     </div>
   );
 }
