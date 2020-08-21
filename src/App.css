@@ -5,3 +5,8 @@
 .dayLight {
   background-color:blue;
 }
+.message{
+  background-color: red;
+  color: red;
+  text-emphasis-color: red;
+}
