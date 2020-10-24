@@ -16,7 +16,7 @@ function App() {
 
       <button onClick={()=>setCount(++count)} >Update Counter</button>
       <button onClick={()=>setCount(0)}> Reset Counter</button><br/><br></br>
-      <button onClick={()=>setMorning(!isMorning)}>change background </button>
+      <button onClick={()=>setMorning(!isMorning)}>daymode </button>
     </div>
   );
 }
